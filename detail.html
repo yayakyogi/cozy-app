@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mobileui/style.css" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, width=device-width, viewport-fit=cover"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="icon" href="./img/logo.png" type="image/icon type" />
+    <title>Detail Order</title>
+  </head>
+  <body class="white">
+    <div>
+      <button style="position: absolute;top: 20px;left: 5px;">
+        <img src="/icons/ic_arrow_back.png" width="40" height="40" onclick="routes('home')"/>
+      </button>
+      <button style="position: absolute;top: 20px;right: 5px;">
+        <img src="/icons/ic_love_off.png" width="40" height="40"/>
+      </button>
+      <img src="img/img-popular-3.png" style="width: 100%;height: 300px;"/>
+      <!-- Content -->
+      <div
+        style="
+          position: absolute;
+          top: 240px;
+          width: 100%;
+          height: 300px;
+          background-color: #ffffff;
+          z-index: 1000;
+          border-top-right-radius: 25px;
+          border-top-left-radius: 25px;
+          padding: 26px 16px;
+        "
+      >
+        <!-- Title, Price & Rating -->
+        <div class="row-between vertical-align-center">
+          <!-- Title & Price -->
+          <div>
+            <h1 style="font-weight: 500; margin-bottom: 6px;font-size: 22px;color: #020202;">Cherry Healthy</h1>
+            <span style="font-size: 16px; color: #5843be; font-weight: 600"
+              >$52
+            </span>
+            <span style="font-size: 16px; color: #7a7e86; font-weight: 100"
+              >/ month</span
+            >
+          </div>
+          <!-- ./Title -->
+          <!-- Icon Rating -->
+          <div class="row">
+            <img
+              src="./icons/ic_star.png"
+              width="20"
+              height="20"
+              alt="icon_star"
+            />
+            <img
+              src="./icons/ic_star.png"
+              width="20"
+              height="20"
+              alt="icon_star"
+            />
+            <img
+              src="./icons/ic_star.png"
+              width="20"
+              height="20"
+              alt="icon_star"
+            />
+            <img
+              src="./icons/ic_star.png"
+              width="20"
+              height="20"
+              alt="icon_star"
+            />
+            <img
+              src="./icons/ic_star_off.png"
+              width="20"
+              height="20"
+              alt="icon_star"
+            />
+          </div>
+          <!-- ./Icon Rating -->
+        </div>
+        <!-- ./Title, Price & Rating -->
+        </br>
+
+        <!-- Facilities -->
+        <h1 style="font-size: 16px;color: #020202;margin-bottom: 12px;">Main Facilities</h1>
+        <div class="row vertical-align-left">
+          <!-- Kitchen -->
+          <div style="margin-right:35px;">
+            <img src="./icons/ic_kitchen.png" width="32" height="32"/></br>
+            <span style="color: #5843be; font-weight: 600">3</span>
+            <span style="color: #7a7e86; font-weight: 100">Kitchen</span>
+          </div>
+          <!-- ./Kitchen -->
+          
+          <!-- Bedroom -->
+          <div style="margin-right:35px;">
+            <img src="./icons/ic_bedroom.png" width="32" height="32"/></br>
+            <span style="color: #5843be; font-weight: 600">2</span>
+            <span style="color: #7a7e86; font-weight: 100">Bedroom</span>
+          </div>
+          <!-- ./Bedroom -->
+
+          <!-- Big Lemari -->
+          <div style="margin-right:35px;">
+            <img src="./icons/ic_big_lemari.png" width="32" height="32"/></br>
+            <span style="color: #5843be; font-weight: 600">1</span>
+            <span style="color: #7a7e86; font-weight: 100">Big Lemari</span>
+          </div>
+          <!-- ./Big Lemari -->
+        </div>
+        <!-- ./Facilities -->
+        
+        <!-- Photos -->
+        <h1 style="font-size: 16px;color: #020202;margin-bottom: 12px;margin-top: 20px;">Photos</h1>
+        <div class="row-between">
+          <img src="./img/img-detail-1.png" width="100" height="88" style="border-radius: 20px;"/>
+          <img src="./img/img-detail-2.png" width="100" height="88" style="border-radius: 20px;"/>
+          <img src="./img/img-detail-3.png" width="100" height="88" style="border-radius: 20px;"/>
+        </div>
+        <!-- ./Photos -->
+
+        <!-- Location -->
+        <h1 style="font-size: 16px;color: #020202;margin-bottom: 12px;margin-top: 20px;">Location</h1>
+        <div class="row-between">
+          <span style="width: 70%;color: #7a7e86;">Jln. Kappan Sukses No. 20 Palembang</span>
+          <button><img src="./icons/ic_location.png" width="40" height="40"/></button>
+        </div>
+        <!-- ./Location -->
+
+        <!-- Button book now -->
+        <button style="margin-top: 30px; background-color: #5843be;color: #ffffff;font-size: 18px;width: 100%;padding: 5px 0; border-radius: 20px;">Book Now</button>
+        <!-- ./Button book now -->
+      </div>
+      <!-- ./content -->
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="mobileui/mobileui.js"></script>
+    <script type="text/javascript" src="js/fileku.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
