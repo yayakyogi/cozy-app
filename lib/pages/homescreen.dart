@@ -17,6 +17,7 @@ class _HomescreenState extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
+      top: false,
       child: Scaffold(
         backgroundColor: Colors.white,
         body: ListView(
